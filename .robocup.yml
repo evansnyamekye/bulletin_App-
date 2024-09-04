@@ -9,6 +9,7 @@ AllCops:
     - "node_modules/**/*"
 
   DisplayCopNames: true
+  SuggestExtensions: false
 
 Layout/LineLength:
   Max: 120
@@ -39,7 +40,7 @@ Style/AndOr:
 Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
+  Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
