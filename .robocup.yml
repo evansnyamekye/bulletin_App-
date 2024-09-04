@@ -7,9 +7,12 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
-
   DisplayCopNames: true
   SuggestExtensions: false
+
+require:
+  - rubocop-rails
+  - rubocop-capybara
 
 Layout/LineLength:
   Max: 120
