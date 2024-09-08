@@ -1,6 +1,4 @@
-# frozen_string_literal: true
-
-# ApplicationMailer is the base class for all mailers in the application.
+# app/mailers/application_mailer.rb
 class ApplicationMailer < ActionMailer::Base
   default from: 'from@example.com'
   layout 'mailer'

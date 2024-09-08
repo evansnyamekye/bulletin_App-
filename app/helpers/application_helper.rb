@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# ApplicationHelper provides helper methods for views.
+# 23.1.1 ApplicationHelper
 module ApplicationHelper
-  # Your helper methods go here
 end
