@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 
 # this application was devveloped by Nested Team
 class CreateUsers < ActiveRecord::Migration[7.1]
