@@ -1,12 +1,11 @@
 # frozen_string_literal: true
 
-# this application was devveloped by Nested Team
-class CreateComments < ActiveRecord::Migration[7.1]
+# CreateLikes is a migration for the likes table.
+class CreateLikes < ActiveRecord::Migration[7.0]
   def change
-    create_table :comments do |t|
+    create_table :likes do |t|
       t.references :post, null: false, foreign_key: true
       t.references :user, null: false, foreign_key: true
-      t.text :text
 
       t.timestamps
     end
