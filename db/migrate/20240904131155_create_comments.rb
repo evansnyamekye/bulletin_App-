@@ -1,4 +1,3 @@
-
 # this application was devveloped by Nested Team
 class CreateComments < ActiveRecord::Migration[7.1]
   def change
