@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# ApplicationRecord is the base class for all models in the application.
+# Active record
 class ApplicationRecord < ActiveRecord::Base
   self.abstract_class = true
 end
