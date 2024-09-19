@@ -30,7 +30,9 @@ Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
   AllowedMethods: ['describe']
-  Max: 30
+  Max: 50
+  Exclude:
+    - 'db/schema.rb'
 
 Style/Documentation:
   Enabled: false
